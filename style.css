@@ -1,0 +1,20 @@
+.top{
+    font-size: smaller;
+    font-style: normal;
+    text-align: center;
+    color: black;
+    text-justify: auto;
+}
+
+.title{
+    font-size: smaller;
+    font-style: normal;
+    text-align: center;
+    color: black;
+}
+#botao_sal{
+    font-size: smaller;
+    font-style: normal;
+    text-align: center;
+    border-radius: 20%;
+}
