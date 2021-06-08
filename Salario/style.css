@@ -1,0 +1,89 @@
+.corpo{
+   margin: auto;
+   border: 2px black;
+   border-style: solid;
+   text-align: center;
+   text-justify: auto;
+}
+.title{
+   margin: auto;
+  border: 5px black;
+  border-style:groove;
+  text-align: center;
+  font-style: normal;
+  text-justify: auto;
+
+}
+.input_valores {
+  margin: auto;
+  border: 5px black;
+  border-style:groove;
+  text-align: center;
+  font-style: normal;
+  text-justify: auto;
+
+}
+.valor{
+    padding: 2px;
+    margin: auto;
+    text-align: center;
+    text-justify: auto;
+    font: small;
+    font-size: 25px;
+    font-style: normal;
+    color: black;
+}
+.resultado_salario{
+    padding: 2px;
+    margin: auto;
+    text-align: center;
+    text-justify:initial;
+    font-size: 25px;
+    font-style: normal;
+    color: black;
+    border: 5px black;
+     border-style:groove;
+}
+
+.Hora_extra{
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+   border: 5px black;
+    border-style:groove;
+    text-align: center;
+    text-justify: auto;
+}
+
+#salario{
+    border-radius: 10%;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 5px;
+    text-justify: auto;
+
+}
+
+#carga_hr{
+    border-radius: 10%;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 10px;
+    text-justify: auto;
+}
+#texto{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-justify: auto;
+    text-align: center;
+    
+}
+
+#botao_sal{
+    margin: auto;
+    width: 10%;
+    height: 10%;
+    text-align: left;
+    
+}

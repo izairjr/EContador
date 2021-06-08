@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head lang="pt-br">
+        <meta charset="UTF-8">
+        <title>Calculadora de salario</title>
+        <link href="style.css" rel ="stylesheet">
+        <script src="./js/salario.js"></script>
+    </head>
+    <body class = "corpo">
+        <head >
+            <div class="title">
+            <h1 > Calcule seu Salário</h1>
+            <h4> Atenção! os valores aqui apresentados são estimativas e não devem ser usado como unica fonte para definição do valor a ser pago</h4>
+            </div>
+        </head>
+    <header class="input_valores" > 
+        <p id="texto">Qual seu salário ?</p>
+        <input id = "salario" type="number" >
+        <br>
+        <p id="texto">Qual a carga horária diária ?</p>
+        <input id = "carga_hr" type="number">
+        <br>
+        <img src="./img/calcular.png" alt ="botão para salvar" id = "salvar" onclick= "confirmasal(), Calcular()">
+    </header>
+
+    <header class = "resultado_salario">
+        <h6 class = "valor" id = "ALIQINSS"></h6>
+        <h6 class = "valor" id = "ALIQFGTS"></h6>
+        <h6 class = "valor" id = "ALIQIRPF"></h6>
+        <H6 class = "valor" id = "INSS"></H6>
+        <H6 class = "valor" id = "FGTS"></H6>
+        <H6 class = "valor" id = "IRPF"></H6>
+        <H6 class = "valor" id = "SALARIO_F"></H6>
+        <H6 class = "valor" id = "hora_vl"></H6>
+    </header>
+    <header class="Hora_extra">
+        <br>
+        <h2>Horas Extras</h2>
+        <p>Quantas horas foram feitas:</p>
+        <input id = "Horasfeitas" type="number" class="botao">
+        <br>
+        <input type="checkbox" id="hora50%" name="hora50" onclick= "hora50()">
+        <label for="hora50">Fiz Horas durante a semana.</label><br>
+        <input type="checkbox" id="hora100%" name="hora100" onclick= "hora100()">
+        <label for="hora100">Fiz Horas durante feriado ou domingo.</label>
+        <br>
+        <img src="./img/calcular.png" alt ="botão para calcular" class="botao"  id = "salvar" onclick= "calcula_extras()">
+    </header> 
+        <header class="resultado_salario">
+        <H6 class = "valor" id = "totalextra"></H6>
+        </header>
+    
+    </body>
+</html>
