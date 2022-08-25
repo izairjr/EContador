@@ -7,14 +7,36 @@
 }
 
 .title{
-    font-size: smaller;
+    font-size: 70px;
     font-style: normal;
     text-align: center;
-    color: black;
+    color: blue;
+    border-color: darkslateblue;
+    background-color: cadetblue;
 }
-#botao_sal{
+
+.title2{
+    font-style: normal;
+    font-family: Arial;
+    font-size: 50px;
+    background-color: cornflowerblue;
+    color: blue;
+    margin: auto;
+    border-bottom-style: double;
+    border-radius: 2px;
+    border-color: black;
+}
+
+.text{
+    font-style: oblique;
+    font-family: Arial;
+    font-size: 20px;
+    padding-bottom: 2px;
+}
+.botao_sal{
     font-size: smaller;
     font-style: normal;
     text-align: center;
     border-radius: 20%;
+    border-image: repeat;
 }
